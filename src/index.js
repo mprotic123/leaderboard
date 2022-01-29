@@ -21,5 +21,6 @@ form.addEventListener('submit', (e) => {
     yourscore.value = '';
   }
   e.preventDefault();
-  displayScores();
 });
+
+displayScores();
