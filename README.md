@@ -37,7 +37,7 @@ You can do so on the website Github.com, go to the green button that says "Code"
 Then, you can type git clone -b [branch_name] [repo_link] or git clone [repo_link] in terminal if you wish to clone from the main branch.
 
 
-
+### Authors
 
 
 👤 **Milan Protić**
