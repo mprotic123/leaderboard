@@ -6,7 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leaderboard</title>
+
 </head>
+
+<script defer src="bundle.js"></script></head>
+
 
 <body>
   <section id="page_title">
@@ -15,6 +19,7 @@
   <section id="main">
     <div id="score">
       <h2>Recent Score <button type="button" id="refresh_btn">Refresh</button></h2>
+      <h2>Recent Score <button type="button">Refresh</button></h2>
       <ul id="score_list">
         
 
@@ -26,6 +31,10 @@
         <input type="text" name="name" placeholder="Your Name" id="yourname" required>
         <input type="number" name="score" placeholder="Your Score" id="yourscore" required>        
         <button type="submit" id="submit_btn" >Submit</button>
+      <form action="#">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Score">
+        <input type="button" value="Submit" id="submit_btn">
       </form>
 
     </div>
